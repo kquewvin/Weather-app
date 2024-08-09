@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Initial page markup -->
+    <section class="top-banner">
+        <div class="container">
+            <h1 class="heading">Simple Weather App</h1>
+            <form>
+                <input type="text" placeholder="Search for a city" autofocus>
+                <button type="submit">SUBMIT</button>
+                <span class="msg"></span>
+            </form>
+        </div>
+    </section>
+    <section class="ajax-section">
+        <div class="container">
+            <ul class="cities"></ul>
+        </div>
+    </section>
+    <!-- Markup associated with a list item -->
+    <li class="city">
+        <h2 class="city-name" data-name="...">
+            <span>...</span>
+            <sup>...</sup>
+        </h2>
+        <span class="city-temp">...<sup>°C</sup></span>
+        <figure>
+            <img src="..." alt="..." class="city-icon">
+            <figcaption>...</figcaption>
+        </figure>
+    </li>
+</body>
+</html>
