@@ -193,9 +193,3 @@ body {
     color: var(--text_light);
     background: var(--orange);
 }
-
-.ajax-section .city-icon {
-    margin-top: 10px;
-    width: 100px;
-    height: 100px;
-}
